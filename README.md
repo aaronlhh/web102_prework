@@ -10,23 +10,23 @@ Time spent: **X** hours spent in total
 
 The following **required** functionality is completed:
 
-* [ ] The introduction section explains the background of the company and how many games remain unfunded.
-* [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-* [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+* [x] The introduction section explains the background of the company and how many games remain unfunded.
+* [x] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+* [x] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
+* [x] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [x] The navBar at the top of the page allows user to get to each section quickly.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='walkthru.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with [LiceCap](https://www.cockos.com/licecap/)  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -36,9 +36,11 @@ GIF created with ...
 
 Describe any challenges encountered while building the app.
 
+After completing the required challenges, I decided to add a navbar to the top of the page. By simply adding to nav-items and adjust the css, I notice that the logo-title pair is becoming far apart from each other, which is not what I desired. By looking through the flexbox documentations, the solution I came up is to put logo-title pair into a single div, and then flex with other nav-items, so that the navbar style is configured correctly with logo and title close together.  
+
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2023] [Honghao Lin]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
